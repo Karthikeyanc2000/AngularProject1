@@ -1,0 +1,32 @@
+.wrapper{
+    background-color: #a5f4da ;
+    margin: 0px auto;
+    width: 820px;
+}
+
+.active-link{
+    font-weight: bold;
+    color: #ffe6a3;
+    text-decoration: underline;
+}
+
+.navbar{
+    display: flex;
+    background-color: #0d7ccb ;
+}
+.site-name{
+    padding: 5px 30px;
+    color: #f9f9fa;
+}
+.site-menu{
+    padding: 10px 30px;
+    margin-left: 250px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0px 10px;
+}
+.horizontal-line {
+    border-top: 2px solid #312f2f; margin: 20px 0; 
+  }

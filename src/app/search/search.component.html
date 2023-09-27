@@ -1,0 +1,7 @@
+<div class="search-div">
+    <span><b>Search:</b></span>
+   <!-- <input type="text" (input)="ChangeSearchValue($event)">-->
+    <input type="text" [(ngModel)]="searchvalue">
+    <!--for using ngModel please import formsmodule and add it to imports in  app.module -->
+    <span *ngIf='searchvalue != ""'>You searched for "{{ searchvalue }}"</span>
+</div>

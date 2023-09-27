@@ -1,0 +1,54 @@
+/* about.component.css */
+.about-page {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-section {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  
+  .about-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about-content {
+    flex: 2;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+  }

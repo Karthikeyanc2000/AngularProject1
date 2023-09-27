@@ -1,0 +1,13 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wrapper{
+    /*background-color: #a5f4da ; */
+    background-image: url("assets/background/background1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

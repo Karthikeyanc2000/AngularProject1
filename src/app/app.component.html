@@ -1,0 +1,27 @@
+<div class="wrapper">
+<div class="navbar">
+  <div class="site-name">
+      <h2>{{sitename}}</h2>
+  </div>
+  <div class ="site-menu">
+     <!-- <a href="#">HOME</a>
+      <a href="#">CONTACT</a>
+      <a href="#">PRODUCTS</a>
+      <a href="#">ABOUT</a> -->
+
+      <a routerLink="MHOME" routerLinkActive="active-link" class="inactive-link">HOME</a>
+      <a [routerLink]="'CONTACT'" routerLinkActive="active-link" class="inactive-link">CONTACT</a>
+      <a routerLink='PRODUCTS' routerLinkActive="active-link" class="inactive-link">PRODUCTS</a>
+      <a routerLink="ABOUT" routerLinkActive="active-link" class="inactive-link">ABOUT</a>
+
+  </div>
+</div>   
+
+<div class="abc">
+   <!-- <app-header></app-header>
+    <app-notification></app-notification>
+    <app-search></app-search>
+    <app-products></app-products>  -->
+   <router-outlet></router-outlet> 
+</div>  
+</div>    

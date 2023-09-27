@@ -1,0 +1,50 @@
+<div class="wrapper1">
+    <div class="form">
+     <h2 id="contact">Contact</h2>
+     <form (ngSubmit)="onsubmit(myForm)" #myForm="ngForm">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" placeholder="Your name.."
+        name="firstname" ngModel>
+
+        <label for="lname">Last name</label>
+        <input type="text" id="lname" placeholder="Your lastr name.."
+        name="lastname" ngModel>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Mail id"
+        name="email" ngModel>
+
+        <label for="country">Country</label>
+        <select id="country" name="country" ngModel>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">usa</option>
+            <option value="india">India</option>
+            <option value="uk">UK</option>
+        </select>
+
+        <label for="gender">Gender:  </label>
+        <input type="radio" id="male" value="male" name="gender" ngModel>
+        <label for="male" >Male </label>
+        <input type="radio" id="female" value="female" name="gender" ngModel>
+        <label for="female" >Female </label>
+        <input type="radio" id="others" value="others" name="gender" ngModel>
+        <label for="others">Others </label>
+        <br>   <br>
+        <label>Receive Notifications</label>
+        <br>
+        <div class="form-inline">
+            <label><input type="checkbox" value="yes" name="notify" ngModel>Yes  </label>
+            <label><input type="checkbox" value="no" name="notify" ngModel>No</label>
+        </div>
+         <br> 
+        <div class="commdent-box">
+            <h4>Leave a Comment <i>(Optional)</i></h4>
+            <textarea class="comment-input" type="text" id="comments" name="comments" placeholder="Write your comments here... " ngModel ></textarea>
+        </div>
+
+        <input type="submit" value="submit" id="btn">
+
+     </form>
+    </div>
+</div>

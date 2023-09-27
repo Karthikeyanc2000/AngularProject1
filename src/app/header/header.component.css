@@ -1,0 +1,45 @@
+.header{
+    height: 390px;
+    padding: 30px 40px;
+    display: flex;
+    background-color: #dbf9f3;
+}
+.site-slogan{
+    width:320px;
+    margin-left: 50px;
+    text-align: centre;
+}
+h2{
+    font-size: 55px;
+}
+/* Centered heading container */
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 12vh; /* Adjust the height as needed */
+    text-align: center; /* Center text horizontally */
+  }
+  
+  .centered-container h1 {
+    font-size: 36px; /* Adjust the font size as needed */
+    color: #333; /* Adjust the text color as needed */
+  }
+  .horizontal-line {
+    border-top: 2px solid #312f2f; margin: 20px 0; 
+  }
+
+    /*below css for cookie */
+  .notification-div{
+    margin: 10px 0px; padding: 12px 20px; background-color: rgb(248, 233, 94); text-align:centre;
+}
+  p{
+    font-size: 14px;
+}
+  .close{
+    float: right; margin-top: -15px;
+}
+  .horizontal-line {
+    border-top: 2px solid #312f2f; margin: 20px 0;
+ }
